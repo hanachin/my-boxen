@@ -62,4 +62,5 @@ github "vagrant", "3.0.3"
 github "iterm2",  "1.0.6"
 github "sublime_text_3", "1.0.2", :repo => "jozefizso/puppet-sublime_text_3"
 github "hipchat", "1.1.0"
+github "skype",   "1.0.8"
 
