@@ -21,4 +21,19 @@ class people::hanachin {
   }
 
   $home = "/Users/${::boxen_user}"
+
+  sublime_text_3::package {
+    'Better CoffeeScript':
+      source => 'aponxi/sublime-better-coffeescript';
+    'AngularJS (CoffeeScript)':
+      source => 'Iristyle/Sublime-AngularJS-Coffee-Completions';
+    'Codecs 33':
+      source => 'seanliang/Codecs33';
+    'ConvertToUTF8':
+      source => 'seanliang/ConvertToUTF8';
+    'sublemacspro':
+      source => 'grundprinzip/sublemacspro';
+    'TrailingSpaces':
+      source => 'SublimeText/TrailingSpaces';
+  }
 }
