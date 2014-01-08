@@ -5,6 +5,7 @@ class people::hanachin {
   include iterm2::stable
   include sublime_text_3
   include sublime_text_3::package_control
+  include hipchat
 
   package {
     'GoogleJapaneseInput':
