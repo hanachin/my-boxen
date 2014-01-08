@@ -75,6 +75,10 @@ node default {
   ruby::version { '2.0.0': }
   ruby::version { '2.1.0': }
 
+  class { 'ruby::global':
+    version => '2.1.0'
+  }
+
   # common, useful packages
   package {
     [
