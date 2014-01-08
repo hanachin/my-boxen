@@ -9,6 +9,7 @@ class people::hanachin {
   include skype
   include heroku
   include rubymine
+  include zsh
 
   package {
     'GoogleJapaneseInput':
