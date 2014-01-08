@@ -23,8 +23,6 @@ class people::hanachin {
       provider => 'appdmg';
   }
 
-  $home = "/Users/${::boxen_user}"
-
   sublime_text_3::package {
     'Better CoffeeScript':
       source => 'aponxi/sublime-better-coffeescript';
@@ -38,5 +36,46 @@ class people::hanachin {
       source => 'grundprinzip/sublemacspro';
     'TrailingSpaces':
       source => 'SublimeText/TrailingSpaces';
+  }
+
+  $home = "/Users/${::boxen_user}"
+  $work = "${home}/work"
+  $my   = "${home}/my"
+
+  file {
+    $work:
+      ensure => directory;
+    $my:
+      ensure => directory;
+  }
+
+  repository { "${work}/tuntun":
+    source => "hanachin/tuntun",
+    require => File[$work]
+  }
+
+  repository { "${my}/hanachin.github.io":
+    source => "hanachin/hanachin.github.io",
+    require => File[$my]
+  }
+
+  repository { "${my}/dotfiles":
+    source => "hanachin/dotfiles",
+    require => File[$my]
+  }
+
+  repository { "${work}/snapwhim":
+    source => "yasulab/snapwhim",
+    require => File[$work]
+  }
+
+  repository { "${work}/snapwhim-chef":
+    source => "hanachin/snapwhim-chef",
+    require => File[$work]
+  }
+
+  repository { "${work}/ssslimer":
+    source => "hanachin/ssslimer",
+    require => File[$work]
   }
 }
