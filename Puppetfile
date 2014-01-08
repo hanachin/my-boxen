@@ -64,6 +64,8 @@ github "sublime_text_3", "1.0.2", :repo => "jozefizso/puppet-sublime_text_3"
 github "hipchat", "1.1.0"
 github "skype",   "1.0.8"
 github "heroku",  "2.1.1"
+github "osx",     "2.2.2"
 github "rubymine", "1.1.0"
+mod  "zsh", :git => "git://github.com/hanachin/puppet-zsh.git", :ref => 'master'
 
 github "ripienaar-module_data", "0.0.1", :repo => "ripienaar/puppet-module-data"

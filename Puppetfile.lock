@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/hanachin/puppet-zsh.git
+  ref: master
+  sha: 517a692ab0d55feec5d7ca7a9d37094e0edb4f4b
+  specs:
+    zsh (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
@@ -77,6 +84,11 @@ GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -161,6 +173,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
+  osx (= 2.2.2)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
@@ -173,4 +186,5 @@ DEPENDENCIES
   sudo (= 1.0.0)
   vagrant (= 3.0.3)
   xquartz (= 1.1.0)
+  zsh (>= 0)
 
