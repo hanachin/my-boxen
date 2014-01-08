@@ -11,6 +11,7 @@ class people::hanachin {
   include rubymine
   include zsh
   include mysql
+  include imagemagick
 
   package {
     'GoogleJapaneseInput':
