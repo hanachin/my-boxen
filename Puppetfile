@@ -67,5 +67,6 @@ github "heroku",  "2.1.1"
 github "osx",     "2.2.2"
 github "rubymine", "1.1.0"
 mod  "zsh", :git => "git://github.com/hanachin/puppet-zsh.git", :ref => 'master'
+github "mysql",   "1.2.0"
 
 github "ripienaar-module_data", "0.0.1", :repo => "ripienaar/puppet-module-data"
