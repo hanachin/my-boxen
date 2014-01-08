@@ -3,6 +3,8 @@ class people::hanachin {
   include dropbox
   include vagrant
   include iterm2::stable
+  include sublime_text_3
+  include sublime_text_3::package_control
 
   package {
     'GoogleJapaneseInput':
