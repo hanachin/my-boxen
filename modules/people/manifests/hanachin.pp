@@ -10,6 +10,7 @@ class people::hanachin {
   include heroku
   include rubymine
   include zsh
+  include mysql
 
   package {
     'GoogleJapaneseInput':
