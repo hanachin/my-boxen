@@ -58,4 +58,5 @@ github "xquartz",    "1.1.0"
 
 github "chrome",  "1.1.2"
 github "dropbox", "1.2.0"
+github "vagrant", "3.0.3"
 
