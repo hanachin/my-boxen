@@ -70,5 +70,6 @@ mod  "zsh", :git => "git://github.com/hanachin/puppet-zsh.git", :ref => 'master'
 github "mysql",       "1.2.0"
 github "imagemagick", "1.2.1"
 github "redis",       "2.1.0"
+github "qt",          "1.2.1"
 
 github "ripienaar-module_data", "0.0.1", :repo => "ripienaar/puppet-module-data"
