@@ -7,6 +7,7 @@ class people::hanachin {
   include sublime_text_3::package_control
   include hipchat
   include skype
+  include heroku
 
   package {
     'GoogleJapaneseInput':
