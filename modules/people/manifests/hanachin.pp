@@ -14,6 +14,7 @@ class people::hanachin {
   include redis
   include imagemagick
   include phantomjs
+  include qt
 
   package {
     'GoogleJapaneseInput':
