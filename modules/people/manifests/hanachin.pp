@@ -12,6 +12,7 @@ class people::hanachin {
   include zsh
   include mysql
   include imagemagick
+  include phantomjs
 
   package {
     'GoogleJapaneseInput':
