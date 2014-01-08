@@ -13,6 +13,9 @@ class people::hanachin {
     'Postgresapp':
       source => 'https://github.com/PostgresApp/PostgresApp/releases/download/9.3.1.0-alpha1/Postgres93.zip',
       provider => 'compressed_app';
+    'Copy':
+      source => 'https://copy.com/install/mac/Copy.dmg',
+      provider => 'appdmg';
   }
 
   $home = "/Users/${::boxen_user}"
