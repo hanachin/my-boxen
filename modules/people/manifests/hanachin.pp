@@ -28,6 +28,8 @@ class people::hanachin {
       provider => 'appdmg';
   }
 
+  package { 'lv': }
+
   sublime_text_3::package {
     'Better CoffeeScript':
       source => 'aponxi/sublime-better-coffeescript';
