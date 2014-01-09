@@ -21,3 +21,10 @@ export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
 
 # oh-my-zsh
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
+# powerline font
+## iterm2
+https://github.com/Lokaltog/powerline-fonts/raw/master/SourceCodePro/Sauce%20Code%20Powerline%20Regular.otf
+## subl
+https://github.com/Lokaltog/powerline-fonts/raw/master/SourceCodePro/Sauce%20Code%20Powerline%20ExtraLight.otf
+
