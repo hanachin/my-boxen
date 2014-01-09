@@ -28,3 +28,11 @@ https://github.com/Lokaltog/powerline-fonts/raw/master/SourceCodePro/Sauce%20Cod
 ## subl
 https://github.com/Lokaltog/powerline-fonts/raw/master/SourceCodePro/Sauce%20Code%20Powerline%20ExtraLight.otf
 
+
+# iterm2
+TerminalTab Terminal Emulation, xterm 256-color
+keys tab, left option right option esc
+
+# pow
+`brew info pow` then hit some commands
+
