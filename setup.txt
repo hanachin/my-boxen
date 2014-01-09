@@ -1,0 +1,23 @@
+1. install boxen
+2. change keyboard mapping, caps lock to ctrl in system setting panel
+3. software update
+4. copy public key
+
+## boxen recipe reference
+Google Japanese Input (restart required)
+http://qiita.com/tukiyo/items/9f03bdea4c5cc8d89b56
+
+## AppStore
+- Buy 1Password
+- Divvy
+- Yorufukurou
+- Xcode
+- Line
+- QuickRes Free
+
+
+## pgのgemがはいらない
+export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
+
+# oh-my-zsh
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
