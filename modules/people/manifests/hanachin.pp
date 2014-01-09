@@ -24,8 +24,6 @@ class people::hanachin {
   include phantomjs
   include qt
 
-  phantomjs::version { '1.9.2': }
-
   package {
     'GoogleJapaneseInput':
       source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
@@ -64,6 +62,13 @@ class people::hanachin {
   exec { "sh -c 'source /opt/boxen/env.sh && rbenv global 2.1.0'":
     user => $::boxen_user;
   }
+
+  phantomjs::version { '1.9.2': }
+  # todo require phantomjs
+  exec { "sh -c 'source /opt/boxen/env.sh && phantomenv global 1.9.2'":
+    user => $::boxen_user;
+  }
+
 
   $home = "/Users/${::boxen_user}"
   $work = "${home}/work"
