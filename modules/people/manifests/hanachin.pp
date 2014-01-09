@@ -4,6 +4,7 @@ class people::hanachin {
   include heroku
 
   include zsh
+  include pow
   include vagrant
   include iterm2::stable
   include sublime_text_3
