@@ -71,8 +71,6 @@ github "mysql",       "1.2.0"
 github "imagemagick", "1.2.1"
 github "redis",       "2.1.0"
 github "qt",          "1.2.1"
-github "powerline",   "1.0.0", :repo => "jfelchner/puppet-powerline"
-github "python",      "1.3.0"
 github "pow",         "1.0.0"
 
 github "ripienaar-module_data", "0.0.1", :repo => "ripienaar/puppet-module-data"

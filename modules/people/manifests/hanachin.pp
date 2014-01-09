@@ -24,10 +24,6 @@ class people::hanachin {
   include phantomjs
   include qt
 
-  # font
-  include powerline
-  include python
-
   package {
     'GoogleJapaneseInput':
       source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
