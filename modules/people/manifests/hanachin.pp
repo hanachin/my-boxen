@@ -28,7 +28,7 @@ class people::hanachin {
       provider => 'appdmg';
   }
 
-  package { 'lv': }
+  package { 'lv':; 'tig':; }
 
   sublime_text_3::package {
     'Better CoffeeScript':
