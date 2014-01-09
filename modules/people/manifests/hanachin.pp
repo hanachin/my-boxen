@@ -48,6 +48,11 @@ class people::hanachin {
     user => $::boxen_user;
   }
 
+  # todo require ruby
+  exec { "sh -c 'source /opt/boxen/env.sh && rbenv global 2.1.0'":
+    user => $::boxen_user;
+  }
+
   $home = "/Users/${::boxen_user}"
   $work = "${home}/work"
   $my   = "${home}/my"
