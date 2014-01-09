@@ -43,6 +43,11 @@ class people::hanachin {
       source => 'SublimeText/TrailingSpaces';
   }
 
+  # todo require nodejs
+  exec { "sh -c 'source /opt/boxen/env.sh && nodenv global v0.10'":
+    user => $::boxen_user;
+  }
+
   $home = "/Users/${::boxen_user}"
   $work = "${home}/work"
   $my   = "${home}/my"
