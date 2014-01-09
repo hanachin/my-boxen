@@ -36,3 +36,5 @@ keys tab, left option right option esc
 # pow
 `brew info pow` then hit some commands
 
+# subl
+ln -s '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' ~/bin/subl
