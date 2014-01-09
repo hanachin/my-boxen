@@ -38,3 +38,6 @@ keys tab, left option right option esc
 
 # subl
 ln -s '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' ~/bin/subl
+
+# solarized
+http://ethanschoonover.com/solarized
