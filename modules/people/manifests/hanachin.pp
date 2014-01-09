@@ -1,20 +1,31 @@
 class people::hanachin {
+  # my dev tools
   include chrome
-  include dropbox
+  include heroku
+
+  include zsh
   include vagrant
   include iterm2::stable
   include sublime_text_3
   include sublime_text_3::package_control
-  include hipchat
-  include skype
-  include heroku
   include rubymine
-  include zsh
+
   include mysql
   include redis
   include imagemagick
+
+  # communication tools
+  include dropbox
+  include hipchat
+  include skype
+
+  # for headless browsers
   include phantomjs
   include qt
+
+  # font
+  include powerline
+  include python
 
   package {
     'GoogleJapaneseInput':
