@@ -6,7 +6,7 @@ class people::hanachin {
   include zsh
   include pow
   include vagrant
-  include iterm2::stable
+  include iterm2::dev
   include sublime_text_3
   include sublime_text_3::package_control
   include rubymine
