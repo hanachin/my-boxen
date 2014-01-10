@@ -34,6 +34,9 @@ class people::hanachin {
     'Copy':
       source => 'https://copy.com/install/mac/Copy.dmg',
       provider => 'appdmg';
+    'CotEditor':
+      source => 'http://sourceforge.jp/frs/redir.php?f=%2Fcoteditor%2F54872%2FCotEditor_1.3.1.dmg',
+      provider => 'appdmg';
   }
 
   package { 'lv':; 'tig':; }
