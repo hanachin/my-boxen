@@ -37,6 +37,9 @@ class people::hanachin {
     'CotEditor':
       source => 'http://sourceforge.jp/frs/redir.php?f=%2Fcoteditor%2F54872%2FCotEditor_1.3.1.dmg',
       provider => 'appdmg';
+    'Google Voice and Video':
+      source => "https://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg",
+      provider => pkgdmg;
   }
 
   package { 'lv':; 'tig':; }
