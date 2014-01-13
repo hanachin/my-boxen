@@ -14,7 +14,7 @@ http://qiita.com/tukiyo/items/9f03bdea4c5cc8d89b56
 - Xcode
 - Line
 - QuickRes Free
-
+- Pixelmator
 
 ## pgのgemがはいらない
 export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
