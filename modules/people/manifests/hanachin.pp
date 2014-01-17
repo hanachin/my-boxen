@@ -10,6 +10,7 @@ class people::hanachin {
   include sublime_text_3
   include sublime_text_3::package_control
   include rubymine
+  include gitx::dev
 
   include mysql
   include redis
