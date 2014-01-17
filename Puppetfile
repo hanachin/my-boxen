@@ -72,7 +72,8 @@ github "imagemagick", "1.2.1"
 github "redis",       "2.1.0"
 github "qt",          "1.2.1"
 github "pow",         "1.0.0"
-github "gitx",         "1.2.0"
+github "gitx",        "1.2.0"
+github "virtualbox",  "1.0.10"
 
 github "ripienaar-module_data", "0.0.1", :repo => "ripienaar/puppet-module-data"
 
