@@ -41,6 +41,11 @@ GITHUBTARBALL
     git (1.2.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-gitx
+  specs:
+    gitx (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.0.0)
@@ -188,6 +193,7 @@ DEPENDENCIES
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
+  gitx (= 1.2.0)
   go (= 1.0.0)
   heroku (= 2.1.1)
   hipchat (= 1.1.0)
