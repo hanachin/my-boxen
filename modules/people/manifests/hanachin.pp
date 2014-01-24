@@ -26,6 +26,9 @@ class people::hanachin {
   include phantomjs
   include qt
 
+  # n
+  include java
+
   package {
     'GoogleJapaneseInput':
       source => "http://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg",
