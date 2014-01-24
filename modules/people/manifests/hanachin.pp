@@ -44,7 +44,10 @@ class people::hanachin {
       provider => pkgdmg;
   }
 
-  package { 'lv':; 'tig':; }
+  include homebrew
+  homebrew::tap { 'homebrew/binary': }
+
+  package { 'lv':; 'tig':; 'docker':; }
 
   sublime_text_3::package {
     'Better CoffeeScript':
