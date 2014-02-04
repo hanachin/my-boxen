@@ -41,3 +41,6 @@ ln -s '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' ~/bin/sub
 
 # solarized
 http://ethanschoonover.com/solarized
+
+# migmix+
+http://mix-mplus-ipa.sourceforge.jp/
