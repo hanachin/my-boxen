@@ -45,6 +45,9 @@ class people::hanachin {
     'Google Voice and Video':
       source => "https://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg",
       provider => pkgdmg;
+    'Kobito':
+      source => "http://kobito.qiita.com/download/Kobito_v1.8.7.zip",
+      provider => 'compressed_app';
   }
 
   include homebrew
