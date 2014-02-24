@@ -53,7 +53,7 @@ class people::hanachin {
   include homebrew
   homebrew::tap { 'homebrew/binary': }
 
-  package { 'gradle':; 'lv':; 'tig':; 'docker':; 'emacs':; }
+  package { 'gradle':; 'lv':; 'tig':; 'docker':; 'emacs':; 'boot2docker':; }
 
   sublime_text_3::package {
     'Better CoffeeScript':
