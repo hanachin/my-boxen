@@ -68,6 +68,12 @@ class people::hanachin {
       source => 'grundprinzip/sublemacspro';
     'TrailingSpaces':
       source => 'SublimeText/TrailingSpaces';
+    'SublimeLinter':
+      source => 'SublimeLinter/SublimeLinter3';
+    'SublimeLinter-ruby':
+      source => 'SublimeLinter/SublimeLinter-ruby';
+    'BeautifyRuby':
+      source => 'CraigWilliams/BeautifyRuby';
   }
 
   # todo require nodejs
