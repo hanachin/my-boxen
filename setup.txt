@@ -45,3 +45,5 @@ http://ethanschoonover.com/solarized
 
 # migmix+
 http://mix-mplus-ipa.sourceforge.jp/
+
+# Office for Mac
