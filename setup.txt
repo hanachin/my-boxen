@@ -47,3 +47,6 @@ http://ethanschoonover.com/solarized
 http://mix-mplus-ipa.sourceforge.jp/
 
 # Office for Mac
+
+# SublimeText Tips
+等幅フォント使うなら、フォントのサイズを偶数に合わせないと日本語がずれる
