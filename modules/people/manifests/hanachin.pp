@@ -54,7 +54,7 @@ class people::hanachin {
   include homebrew
   homebrew::tap { 'homebrew/binary': }
 
-  package { 'gradle':; 'lv':; 'tig':; 'docker':; 'emacs':; 'boot2docker':; 'chromedriver':; }
+  package { 'gradle':; 'lv':; 'tig':; 'docker':; 'emacs':; 'boot2docker':; 'chromedriver':; 'readline':; }
 
   sublime_text_3::package {
     'Better CoffeeScript':
