@@ -1,6 +1,7 @@
 class people::hanachin {
   # my dev tools
   include chrome
+  include firefox
   include heroku
 
   include zsh
