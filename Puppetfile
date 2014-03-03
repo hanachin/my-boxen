@@ -58,6 +58,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "chrome",  "1.1.2"
+github "firefox", "1.1.8"
 github "dropbox", "1.2.0"
 github "vagrant", "3.0.3"
 github "iterm2",  "1.0.6"
