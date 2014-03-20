@@ -83,6 +83,8 @@ class people::hanachin {
       source => 'SublimeLinter/SublimeLinter-ruby';
     'BeautifyRuby':
       source => 'CraigWilliams/BeautifyRuby';
+    'EditorConfig':
+      source => 'editorconfig/editorconfig-sublime';
   }
 
   # todo require nodejs
