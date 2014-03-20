@@ -56,6 +56,14 @@ class people::hanachin {
 
   package { 'gradle':; 'lv':; 'tig':; 'docker':; 'emacs':; 'boot2docker':; 'chromedriver':; 'readline':; }
 
+  # boxenでの構築でハマった所メモ
+  # http://qiita.com/kibitan/items/103dcdd32f0b22731487
+  # readlineの接続先直す | iii ThreeTreesLight
+  # http://threetreeslight.com/post/58786169382/readline
+  exec{ "replace_readline_of_ruby" :
+   command => "find /opt/boxen/rbenv -name readline.bundle -exec install_name_tool -change /usr/lib/libedit.3.dylib `find /opt/boxen -name libreadline.dylib` {} \\;",
+  }
+
   sublime_text_3::package {
     'Better CoffeeScript':
       source => 'aponxi/sublime-better-coffeescript';
