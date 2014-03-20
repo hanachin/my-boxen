@@ -84,6 +84,7 @@ class people::hanachin {
     'BeautifyRuby':
       source => 'CraigWilliams/BeautifyRuby';
     'EditorConfig':
+      branch => 'ecbbf1d57282eb6044a62a606391ad22234f11d0',
       source => 'editorconfig/editorconfig-sublime';
     'SublimeSocket':
       source => 'sassembla/SublimeSocket3';
