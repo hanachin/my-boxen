@@ -91,7 +91,7 @@ class people::hanachin {
   }
 
   # todo require ruby
-  exec { "sh -c 'source /opt/boxen/env.sh && rbenv global 2.1.0'":
+  exec { "sh -c 'source /opt/boxen/env.sh && rbenv global 2.1.1'":
     user => $::boxen_user;
   }
 
