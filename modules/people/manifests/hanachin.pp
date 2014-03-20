@@ -85,6 +85,8 @@ class people::hanachin {
       source => 'CraigWilliams/BeautifyRuby';
     'EditorConfig':
       source => 'editorconfig/editorconfig-sublime';
+    'SublimeSocket':
+      source => 'sassembla/SublimeSocket3';
   }
 
   # todo require nodejs
