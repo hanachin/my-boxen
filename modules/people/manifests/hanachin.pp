@@ -54,7 +54,7 @@ class people::hanachin {
   include homebrew
   homebrew::tap { 'homebrew/binary': }
 
-  package { 'gradle':; 'lv':; 'tig':; 'docker':; 'emacs':; 'boot2docker':; 'chromedriver':; 'readline':; }
+  package { 'gradle':; 'lv':; 'tig':; 'docker':; 'emacs':; 'boot2docker':; 'chromedriver':; 'readline':; 'tree':; }
 
   # boxenでの構築でハマった所メモ
   # http://qiita.com/kibitan/items/103dcdd32f0b22731487
