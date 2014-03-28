@@ -49,6 +49,9 @@ class people::hanachin {
     'Kobito':
       source => "http://kobito.qiita.com/download/Kobito_v1.8.7.zip",
       provider => 'compressed_app';
+    'Butter':
+      source => "https://github.com/harukasan/butter/releases/download/v0.1.2/Butter_0.1.2.dmg",
+      provider => 'appdmg';
   }
 
   include homebrew
