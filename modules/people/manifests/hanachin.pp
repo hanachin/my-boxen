@@ -50,7 +50,7 @@ class people::hanachin {
       source => "http://kobito.qiita.com/download/Kobito_v1.8.7.zip",
       provider => 'compressed_app';
     'Butter':
-      source => "https://github.com/harukasan/butter/releases/download/v0.1.2/Butter_0.1.2.dmg",
+      source => "https://github.com/harukasan/butter/releases/download/v0.1.3/Butter_0.1.3.dmg",
       provider => 'appdmg';
   }
 
