@@ -17,6 +17,8 @@ class people::hanachin {
   include mysql
   include redis
   include imagemagick
+  include xquartz
+  include inkscape
 
   # communication tools
   include dropbox
