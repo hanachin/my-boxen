@@ -99,11 +99,6 @@ class people::hanachin {
     user => $::boxen_user;
   }
 
-  # todo require ruby
-  exec { "sh -c 'source /opt/boxen/env.sh && rbenv global 2.1.1'":
-    user => $::boxen_user;
-  }
-
   phantomjs::version { '1.9.2': }
   # todo require phantomjs
   exec { "sh -c 'source /opt/boxen/env.sh && phantomenv global 1.9.2'":
