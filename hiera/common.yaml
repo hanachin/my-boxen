@@ -1,0 +1,6 @@
+---
+ruby::global::version: "2.1.2"
+ruby::rbenv_plugins:
+  rbenv-build:
+    ensure: "v20140509.1"
+    source: "sstephenson/ruby-build"
