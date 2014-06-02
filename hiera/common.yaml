@@ -4,3 +4,6 @@ ruby::rbenv_plugins:
   rbenv-build:
     ensure: "v20140509.1"
     source: "sstephenson/ruby-build"
+  gem-src:
+    ensure: "v0.5.1"
+    source: "amatsuda/gem-src"
