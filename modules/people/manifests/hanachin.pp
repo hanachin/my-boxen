@@ -99,9 +99,9 @@ class people::hanachin {
     user => $::boxen_user;
   }
 
-  phantomjs::version { '1.9.2': }
+  phantomjs::version { '1.9.7': }
   # todo require phantomjs
-  exec { "sh -c 'source /opt/boxen/env.sh && phantomenv global 1.9.2'":
+  exec { "sh -c 'source /opt/boxen/env.sh && phantomenv global 1.9.7'":
     user => $::boxen_user;
   }
 
