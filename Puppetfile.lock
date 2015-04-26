@@ -78,7 +78,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.4.0)
+    hub (1.4.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-imagemagick
@@ -225,7 +225,7 @@ DEPENDENCIES
   heroku (= 2.1.1)
   hipchat (= 1.1.0)
   homebrew (= 1.11.2)
-  hub (= 1.4.0)
+  hub (= 1.4.1)
   imagemagick (= 1.2.1)
   inifile (= 1.1.1)
   inkscape (= 1.0.3)
